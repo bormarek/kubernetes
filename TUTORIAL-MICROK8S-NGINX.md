@@ -563,3 +563,10 @@ Materiał sprawdzono statycznie pod kątem składni manifestów i poleceń Bash.
 ## 16. Wszystkie polecenia jako osobne skrypty
 
 Każdy blok Bash z tego tutorialu jest dostępny jako osobny, numerowany plik `.sh` w [scripts/](scripts/README.md). Instrukcja wyjaśnia kolejność, zmienne środowiskowe i ćwiczenia uruchamiane w osobnym terminalu. Skrypty zapisują stan potrzebny między procesami (nazwę Podu i numer dobrej rewizji); nie uruchamiaj ich wszystkich automatycznie.
+
+## 17. Dalszy ciąg: zasoby CPU i RAM
+
+Przejdź do [części 2: requests/limits, OOMKilled i throttling CPU](TUTORIAL-MICROK8S-ZASOBY.md).
+Nowe laboratorium ma osobny namespace `resources-lab` i gotowe manifesty YAML.
+Obejmuje diagnostykę pamięci, naprawę Deploymentu oraz benchmark Python przy
+limitach 100m i 500m; kończy się zapowiedzią klas QoS.

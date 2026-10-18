@@ -559,3 +559,7 @@ Oficjalne źródła do samodzielnego rozwijania tematów:
 - [Oficjalny obraz NGINX: skrypt envsubst](https://github.com/nginx/docker-nginx/blob/master/entrypoint/20-envsubst-on-templates.sh)
 
 Materiał sprawdzono statycznie pod kątem składni manifestów i poleceń Bash. Nie wykonano wdrożenia na klastrze użytkownika ani testu ruchu na żywo. Wyniki w tekście są kryteriami do sprawdzenia podczas laboratorium, a nie raportem z pomiarów.
+
+## 16. Wszystkie polecenia jako osobne skrypty
+
+Każdy blok Bash z tego tutorialu jest dostępny jako osobny, numerowany plik `.sh` w [scripts/](scripts/README.md). Instrukcja wyjaśnia kolejność, zmienne środowiskowe i ćwiczenia uruchamiane w osobnym terminalu. Skrypty zapisują stan potrzebny między procesami (nazwę Podu i numer dobrej rewizji); nie uruchamiaj ich wszystkich automatycznie.
